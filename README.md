@@ -29,6 +29,15 @@ Matplotlib: For data visualization and plotting.
 scikit-learn: For calculating model evaluation metrics like MSE and R2
 tkinter: For the user-friendly file selection dialog.
 
+Required Data Format
+The CSV file must contain the following columns:
+
+week: A date column (e.g., in YYYY-MM-DD format).
+sales: The target variable, representing weekly sales.
+tv_spend, digital_spend, print_spend: Weekly marketing spend data.
+price: Weekly price of the product.
+promotions: A binary (0/1) or categorical variable indicating promotional activity.
+
 How to Use
 Clone or Download: Clone this repository or download the ZIP file to your local machine.
 
